@@ -4,7 +4,7 @@ import openai
 app = Flask(__name__)
 
 # Set up OpenAI API key
-openai.api_key = "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"
+openai.api_key = "enter api key here"
 
 @app.route('/api/find-churches', methods=['POST'])
 def find_churches():
