@@ -1,0 +1,89 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f3ff;
+    color: #333;
+}
+
+/* Header */
+.site-header {
+    background-color: #3a86ff;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 2rem;
+}
+
+/* Main Container */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.search-form {
+    display: grid;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+/* Search Button */
+.search-btn {
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #3a86ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Results Section */
+.results {
+    margin-top: 30px;
+}
+
+.results .result-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3a86ff;
+    color: white;
+    margin-top: 40px;
+    border-radius: 0 0 12px 12px;
+}
